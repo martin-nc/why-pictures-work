@@ -33,7 +33,7 @@ export default function Post({ params } :any) {
 
     return (
         <article className='mx-auto'>
-            <h1>{props.frontMatter.title}</h1>
+            <h1 className="text-center">{props.frontMatter.title}</h1>
             
            <MDXRemote source={props.content} components={{Button}} options={options}/>
         </article>

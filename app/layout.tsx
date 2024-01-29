@@ -18,11 +18,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-     <html lang="en" className='prose prose-stone max-w-3xl mx-auto px-4'>  
+     <html lang="en" className='prose max-w-3xl mx-auto px-4 prose-h2:m0 leading-6 text-lg'>  
       <body>
         <Header />
         {children}
-<Footer />
+        <Footer />
       </body>
     </html>
   )
